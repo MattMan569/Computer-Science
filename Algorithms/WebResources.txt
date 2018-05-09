@@ -1,3 +1,5 @@
+Various online modules for training and practice:
 https://visualgo.net/en
 
+Introductory algorithms via Java
 https://www.youtube.com/playlist?list=PLGLfVvz_LVvReUrWr94U-ZMgjYTQ538nT
