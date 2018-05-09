@@ -1,0 +1,71 @@
+﻿<!-- signup.html
+	This is the page where users enter all required
+	information in order to sign up for the website.
+-->
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Sign up</title>
+	<script type="text/javascript" src="validate.js"></script>
+</head>
+
+<body>
+
+
+<header>
+	<div class="container">
+		<div class="centered">
+			<img src="Chirper.png" alt="" width="24" height="24" />
+			<p class="site_name">Chirper</p>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="post.html">Create a post</a>
+				<a href="user.html" id="midpoint">View users</a>
+				<a href="login.html">Log in</a>
+				<a href="signup.html">Sign up</a>
+			</nav>
+		</div>
+	</div>
+</header>
+
+
+<section class="form">
+	<article class="form">
+		<h3>Sign up for Chirper</h3>
+		<form action="" method="post" enctype=multipart/form-data id="signup">
+			<span class="error_message" id="username_message"></span>
+			<input type="text" name="username" id="username" placeholder="Username" /><br /><br />
+
+			<span class="error_message" id="email_message"></span>
+			<input type="email" name="email" id="email" placeholder="Email" /><br /><br />
+
+			<span class="error_message" id="birthday_message"></span>
+			<input type="text" name="birthday" id="birthday" title="Date of birth" placeholder="DOB: dd/mm/yyyy" /><br /><br />
+			<!-- <input type="date" name="birthday" title="Date of birth" /><br /><br /> -->
+
+			<span class="error_message" id="password_message"></span>
+			<input type="password" name="password" id="password" placeholder="Password" /><br /><br />
+
+			<span class="error_message" id="confirm_message"></span>
+			<input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm password" /><br /><br />
+
+			<span>Select a profile picture:  </span>
+			<input type="file" name="picture" accept="image/*" /><br /><br />
+
+			<input type="submit" value="Sign up" />
+		</form>
+	</article>
+	<footer>
+		<span>Already have an account? <a href="login.html">Log in here</a>.</span>
+	</footer>
+</section>
+
+
+<script type="text/javascript" src="addEventListeners.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+Name: Matthew Polsom
+SID: 200364039
+Course: CS 215 - 001
+URL: http://www2.cs.uregina.ca/~polsom2m/assignments/assignment3/index.html
+
+
+
+
+Files:
+
+HTML:
+	index.html: Home page and listing of posts.
+	post.html: Post creation page.
+	user.html: User information and user specific posts.
+	login.html: Login form.
+	signup.html: Signup form.
+
+
+CSS:
+	style.css: All styling details for all pages.
+
+
+Javascript:
+	addEventListeners.js: Add all required event listeners to all pages
+		and elements that require them.
+	validate.js: Functions for form and input validation.
+	features.js: Functions for site features.
+		Eg) post.html character counter & index.html like button color change.
